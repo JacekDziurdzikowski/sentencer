@@ -18,7 +18,7 @@ class Main
     {
         $configuration = JsonParser::parseJson('configuration.json');
 
-        $sentence = isset($_REQUEST['sentence']) ? $_REQUEST['sentence'] : null;
+        $sentence = isset($_REQUEST['sentence']) ? $_REQUEST['sentence'] : '';
 
         $response = POSApiClient::getResponse($sentence);
 

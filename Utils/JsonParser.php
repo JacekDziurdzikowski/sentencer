@@ -13,6 +13,6 @@ class JsonParser
 {
     public static function parseJson(string $jsonFile) {
         $jsonContent = file_exists($jsonFile) ? file_get_contents($jsonFile) : false;
-        return $jsonContent ? json_decode($jsonContent) : false;
+        return $jsonContent ? json_decode($jsonContent, true) : false;
     }
 }

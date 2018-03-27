@@ -1,0 +1,14 @@
+{
+    "name": "jdz/sentencer",
+    "description": "package goal is to build graphs based on sentences",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jacek Dziurdzikowski",
+            "email": "jacek.dziurdzikowski@gmail.com"
+        }
+    ],
+    "require": {
+
+    }
+}

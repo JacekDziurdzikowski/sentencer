@@ -2,4 +2,4 @@
 
 require 'vendor/autoload.php';
 
-\jdz\Sentencer\Main::main();
+jdz\Sentencer\Main::main();

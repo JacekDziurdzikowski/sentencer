@@ -9,6 +9,12 @@
         }
     ],
     "require": {
-
+        "mashape/unirest-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jdz\\Sentencer\\": ".",
+            "jdz\\POSApiClient\\": "./POSApiClient/"
+        }
     }
 }

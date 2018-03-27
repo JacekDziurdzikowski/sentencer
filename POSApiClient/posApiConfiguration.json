@@ -1,0 +1,10 @@
+{
+  "tagMap":{"!":[".","",""],"#":[".","",""],"$":[".","",""],"''":[".","",""],"(":[".","",""],")":[".","",""],",":[".","",""],"-LRB-":[".","",""],"-RRB-":[".","",""],".":[".","",""],":":[".","",""],"?":[".","",""],"CC":["Conjunction","",""],"CD":["Number","",""],"CD|RB":["X","",""],"DT":["Determiner","",""],"EX":["Determiner","",""],"FW":["X","",""],"IN":["Preposition","",""],"IN|RP":["Preposition","",""],"JJ":["Adjective","",""],"JJR":["Adjective","",""],"JJRJR":["Adjective","",""],"JJS":["Adjective","",""],"JJ|RB":["Adjective","",""],"JJ|VBG":["Adjective","",""],"LS":["X","",""],"MD":["Verb","",""],"NN":["Noun","",""],"NNP":["Noun","",""],"NNPS":["Noun","",""],"NNS":["Noun","",""],"NN|NNS":["Noun","",""],"NN|SYM":["Noun","",""],"NN|VBG":["Noun","",""],"NP":["Noun","",""],"PDT":["Determiner","",""],"POS":["PRT","",""],"PRP":["Pronoun","",""],"PRP$":["Pronoun","",""],"PRP|VBP":["Pronoun","",""],"PRT":["PRT","",""],"RB":["Adverb","",""],"RBR":["Adverb","",""],"RBS":["Adverb","",""],"RB|RP":["Adverb","",""],"RB|VBG":["Adverb","",""],"RN":["X","",""],"RP":["PRT","",""],"SYM":["X","",""],"TO":["PRT","",""],"UH":["X","",""],"VB":["Verb","",""],"VBD":["Verb","",""],"VBD|VBN":["Verb","",""],"VBG":["Verb","",""],"VBG|NN":["Verb","",""],"VBN":["Verb","",""],"VBP":["Verb","",""],"VBP|TO":["Verb","",""],"VBZ":["Verb","",""],"VP":["Verb","",""],"WDT":["Determiner","",""],"WH":["X","",""],"WP":["Pronoun","",""],"WP$":["Pronoun","",""],"WRB":["Adverb","",""],"``":[".","",""]},
+
+  "colors":{"Adjective":"#fc6","Adverb":"#c99","Conjunction":"#cc9","Determiner":"#99c","Noun":"#ccc","Number":"#6c9","Preposition":"#f9c","Pronoun":"#ee7","Verb":"#cf6"},
+
+  "endpoint": "https://parts-of-speech.info/tagger/postagger",
+
+  "language": "en"
+
+}

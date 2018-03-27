@@ -9,12 +9,20 @@
 namespace jdz\Sentencer;
 
 
+use jdz\POSApiClient\POSApiClient;
+use jdz\Sentencer\Utils\JsonParser;
+
 class Main
 {
     public static function main()
     {
-        $sentence = $_REQUEST['sentence'];
+        $configuration = JsonParser::parseJson('configuration.json');
 
+        $sentence = isset($_REQUEST['sentence']) ? $_REQUEST['sentence'] : null;
+
+        $response = POSApiClient::getResponse($sentence);
+
+        var_dump($response);
 
 
     }
